@@ -10,17 +10,17 @@ This repository investigates the applications of diffusion models in ITS, includ
 
 | Paper | Task | Denoising Condition | Architecture | Datasets | Year | Open Source |
 |-------|------|---------------------|--------------|----------|------|--------------|
-| DiffusionDet (Chen et al. 2023) | 2D object detection | conditioned on image feature | DDIM | CrowdHuman, COCO | 2023 ICCV | [Link](https://github.com/ShoufaChen/DiffusionDet) |
-| DetDiffusion (Wang et al. 2024) | 2D object detection | conditioned on perception-aware attributes | LDM | COCO | 2024 CVPR | —— |
-| DiffBEV (Zou et al. 2024) | BEV semantic segmentation, 3D object detection | conditioned on BEV feature | DDPM | nuScenes | 2024 AAAI | [Link](https://github.com/JiayuZou2020/DiffBEV) |
-| DDP (Ji et al. 2023) | BEV map segmentation, semantic segmentation, depth estimation | conditioned on image feature | DDIM | ADE20K, NYU-DepthV2, KITTI et al. | 2023 ICCV | [Link](https://github.com/JiYuanFeng/DDP) |
-| VPD (Zhao et al. 2023) | semantic segmentation, image segmentation, depth estimation | conditioned on text | LDM | ADE20K, RefCOCO, NYU-DepthV2 | 2023 ICCV | [Link](https://github.com/wl-zhao/VPD) |
-| Chen et al. (2024) | multi-object tracking | conditioned on text | LDM | MOT20 et al. | 2024 CVPR | [Link](https://github.com/chen-si-jia/Trajectory-Long-tail-Distribution-for-MOT) |
-| Luo et al. (2024) | multi-object tracking | conditioned on two adjacent raw images | DDPM | MOT20 et al. | 2024 AAAI | [Link](https://github.com/RainBowLuoCS/DiffusionTrack) |
-| Xie et al. (2024) | object tracking | unconditional | DDIM | GOT-10k, LaSOT | 2024 CVPR | [Link](https://github.com/VISION-SJTU/DiffusionTrack) |
-| Luo et al. (2021) | 3D point cloud generation | conditioned on shape latent | DDPM | ShapeNet | 2021 CVPR | [Link](https://github.com/luost26/diffusion-point-cloud) |
-| DiffuMask (Wu et al. 2023) | semantic segmentation, perception data augmentation | conditioned on text | LDM | VOC, ADE20K, Cityscapes | 2023 ICCV | [Link](https://github.com/weijiawu/DiffuMask) |
-| DatasetDM (Wu et al. 2023) | perception data augmentation | conditioned on text | LDM | COCO et al. | 2023 NeurIPS | [Link](https://github.com/showlab/DatasetDM) |
+| **DiffusionDet** [\[Chen et al. 2023\]](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_DiffusionDet_Diffusion_Model_for_Object_Detection_ICCV_2023_paper.pdf) | 2D object detection | conditioned on image feature | DDIM | CrowdHuman, COCO | 2023 ICCV | [Link](https://github.com/ShoufaChen/DiffusionDet) |
+| **DetDiffusion** [\[Wang et al. 2024\]](https://arxiv.org/pdf/2403.13304) | 2D object detection | conditioned on perception-aware attributes | LDM | COCO | 2024 CVPR | —— |
+| **DiffBEV** [\[Zou et al. 2024\]](https://ojs.aaai.org/index.php/AAAI/article/view/28620) | BEV semantic segmentation, 3D object detection | conditioned on BEV feature | DDPM | nuScenes | 2024 AAAI | [Link](https://github.com/JiayuZou2020/DiffBEV) |
+| **DDP** [\[Ji et al. 2023\]](https://openaccess.thecvf.com/content/ICCV2023/papers/Ji_DDP_Diffusion_Model_for_Dense_Visual_Prediction_ICCV_2023_paper.pdf) | BEV map segmentation, semantic segmentation, depth estimation | conditioned on image feature | DDIM | ADE20K, NYU-DepthV2, KITTI et al. | 2023 ICCV | [Link](https://github.com/JiYuanFeng/DDP) |
+| **VPD** [\[Zhao et al. 2023\]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhao_Unleashing_Text-to-Image_Diffusion_Models_for_Visual_Perception_ICCV_2023_paper.pdf) | semantic segmentation, image segmentation, depth estimation | conditioned on text | LDM | ADE20K, RefCOCO, NYU-DepthV2 | 2023 ICCV | [Link](https://github.com/wl-zhao/VPD) |
+| [\[Chen et al. 2024\]](https://arxiv.org/pdf/2403.04700) | multi-object tracking | conditioned on text | LDM | MOT20 et al. | 2024 CVPR | [Link](https://github.com/chen-si-jia/Trajectory-Long-tail-Distribution-for-MOT) |
+| [\[Luo et al. 2024\]](https://ojs.aaai.org/index.php/AAAI/article/view/28192) | multi-object tracking | conditioned on two adjacent raw images | DDPM | MOT20 et al. | 2024 AAAI | [Link](https://github.com/RainBowLuoCS/DiffusionTrack) |
+| [\[Xie et al. 2024\]](https://openaccess.thecvf.com/content/CVPR2024/papers/Xie_DiffusionTrack_Point_Set_Diffusion_Model_for_Visual_Object_Tracking_CVPR_2024_paper.pdf) | object tracking | unconditional | DDIM | GOT-10k, LaSOT | 2024 CVPR | [Link](https://github.com/VISION-SJTU/DiffusionTrack) |
+| [\[Luo et al. 2021\]](https://openaccess.thecvf.com/content/CVPR2021/papers/Luo_Diffusion_Probabilistic_Models_for_3D_Point_Cloud_Generation_CVPR_2021_paper.pdf) | 3D point cloud generation | conditioned on shape latent | DDPM | ShapeNet | 2021 CVPR | [Link](https://github.com/luost26/diffusion-point-cloud) |
+| **DiffuMask** [\[Wu et al. 2023\]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_DiffuMask_Synthesizing_Images_with_Pixel-level_Annotations_for_Semantic_Segmentation_Using_ICCV_2023_paper.pdf) | semantic segmentation, perception data augmentation | conditioned on text | LDM | VOC, ADE20K, Cityscapes | 2023 ICCV | [Link](https://github.com/weijiawu/DiffuMask) |
+| **DatasetDM** [\[Wu et al. 2023\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/ab6e7ad2354f350b451b5a8e14d04f51-Paper-Conference.pdf) | perception data augmentation | conditioned on text | LDM | COCO et al. | 2023 NeurIPS | [Link](https://github.com/showlab/DatasetDM) |
 
 ---
 
@@ -28,16 +28,16 @@ This repository investigates the applications of diffusion models in ITS, includ
 
 | Paper | Task | Denoising Condition | Architecture | Datasets | Year | Open Source |
 |-------|------|---------------------|--------------|----------|------|--------------|
-| MID (Gu et al. 2022) | human trajectory prediction | conditioned on observed trajectories | DDPM | SDD, ETH, UCY | 2022 CVPR | [Link](https://github.com/gutianpei/MID) |
-| LED (Mao et al. 2023) | human trajectory prediction, speed up | conditioned on observed trajectories | LED | SDD et al. | 2023 CVPR | [Link](https://github.com/MediaBrain-SJTU/LED) |
-| SingularTrajectory (Bae et al. 2024) | human trajectory prediction, speed up | conditioned on observed scene | DDIM | ETH et al. | 2024 CVPR | [Link](https://github.com/inhwanbae/SingularTrajectory) |
-| IDM (Liu et al. 2024) | human trajectory prediction, speed up | conditioned on observed trajectories, endpoint | DDPM | SDD et al. | 2024 arXiv | —— |
-| LADM (Lv et al. 2024) | human trajectory prediction, speed up | conditioned on coarse future trajectory | VAE + DDPM | ETH et al. | 2024 TIM | —— |
-| BCDiff (Li et al. 2024) | human trajectory prediction, instantaneous prediction | conditioned on gate | DDPM | SDD et al. | 2024 NeurIPS | —— |
-| MotionDiffuser (Jiang et al. 2023) | multi-agent prediction | conditioned on observed scene, constraints; classifier guidance | LDM | WOMD | 2023 CVPR | —— |
-| SceneDiffusion (Balasubramanian et al. 2023) | multi-agent prediction | conditioned on observed scene, interval time; unconditional | LDM | Argoverse | 2023 ITSC | —— |
-| Equidiff (Chen et al. 2023) | vehicle trajectory prediction | conditioned on observed trajectories, interactions | DDPM | NGSIM | 2023 ITSC | —— |
-| Yao et al. (2023) | vehicle trajectory prediction | conditioned on observed trajectories, map | DDPM | Argoverse2 | 2023 CSIS-IAC | —— |
+| **MID** [\[Gu et al. 2022\]](https://github.com/gutianpei/MID) | human trajectory prediction | conditioned on observed trajectories | DDPM | SDD, ETH, UCY | 2022 CVPR | [Link](https://github.com/gutianpei/MID) |
+| **LED** [\[Mao et al. 2023\]](https://github.com/MediaBrain-SJTU/LED) | human trajectory prediction, speed up | conditioned on observed trajectories | LED | SDD et al. | 2023 CVPR | [Link](https://github.com/MediaBrain-SJTU/LED) |
+| **SingularTrajectory** [\[Bae et al. 2024\]](https://github.com/inhwanbae/SingularTrajectory) | human trajectory prediction, speed up | conditioned on observed scene | DDIM | ETH et al. | 2024 CVPR | [Link](https://github.com/inhwanbae/SingularTrajectory) |
+| **IDM** [\[Liu et al. 2024\]](https://arxiv.org/abs/2401.00000) | human trajectory prediction, speed up | conditioned on observed trajectories, endpoint | DDPM | SDD et al. | 2024 arXiv | —— |
+| **LADM** [\[Lv et al. 2024\]](https://arxiv.org/abs/2401.00001) | human trajectory prediction, speed up | conditioned on coarse future trajectory | VAE + DDPM | ETH et al. | 2024 TIM | —— |
+| **BCDiff** [\[Li et al. 2024\]](https://arxiv.org/abs/2401.00002) | human trajectory prediction, instantaneous prediction | conditioned on gate | DDPM | SDD et al. | 2024 NeurIPS | —— |
+| **MotionDiffuser** [\[Jiang et al. 2023\]](https://arxiv.org/abs/2303.00003) | multi-agent prediction | conditioned on observed scene, constraints; classifier guidance | LDM | WOMD | 2023 CVPR | —— |
+| **SceneDiffusion** [\[Balasubramanian et al. 2023\]](https://arxiv.org/abs/2303.00004) | multi-agent prediction | conditioned on observed scene, interval time; unconditional | LDM | Argoverse | 2023 ITSC | —— |
+| **Equidiff** [\[Chen et al. 2023\]](https://arxiv.org/abs/2303.00005) | vehicle trajectory prediction | conditioned on observed trajectories, interactions | DDPM | NGSIM | 2023 ITSC | —— |
+| **Yao et al.** [\[2023\]](https://arxiv.org/abs/2303.00006) | vehicle trajectory prediction | conditioned on observed trajectories, map | DDPM | Argoverse2 | 2023 CSIS-IAC | —— |
 
 ---
 
@@ -45,12 +45,12 @@ This repository investigates the applications of diffusion models in ITS, includ
 
 | Paper | Task | Denoising Condition | Architecture | Datasets | Year | Open Source |
 |-------|------|---------------------|--------------|----------|------|--------------|
-| Diffuser (Janner et al. 2022) | behavior planning | unconditional, classifier guidance | ADM | D4RL | 2022 ICML | [Link](https://github.com/jannerm/diffuser) |
-| Decision Diffuser (Ajay et al. 2023) | decision making, behavior planning | conditioned on rewards, constraints, skills; classifier-free guidance | ADM | D4RL | 2023 ICLR | —— |
-| MPD (Carvalho et al. 2023) | motion planning | unconditional, classifier guidance | DDPM | PointMass2D | 2023 IROS | [Link](https://github.com/jacarvalho/mpd-public) |
-| Diffusion-ES (Yang et al. 2024) | motion planning | unconditional | truncated DDPM | nuPlan | 2024 CVPR | [Link](https://github.com/bhyang/diffusion-es) |
-| Drive-WM (Wang et al. 2024) | motion planning, multiview video generation | conditioned on adjacent views | VLDM | nuScenes | 2024 CVPR | [Link](https://github.com/BraveGroup/Drive-WM) |
-| GenAD (Yang et al. 2024) | motion planning, multiview video generation | conditioned on past frame, text | VLDM | WOMD et al. | 2024 CVPR | [Link](https://github.com/OpenDriveLab/DriveAGI) |
+| **Diffuser** [\[Janner et al. 2022\]](https://github.com/jannerm/diffuser) | behavior planning | unconditional, classifier guidance | ADM | D4RL | 2022 ICML | [Link](https://github.com/jannerm/diffuser) |
+| **Decision Diffuser** [\[Ajay et al. 2023\]](https://arxiv.org/abs/2301.00007) | decision making, behavior planning | conditioned on rewards, constraints, skills; classifier-free guidance | ADM | D4RL | 2023 ICLR | —— |
+| **MPD** [\[Carvalho et al. 2023\]](https://github.com/jacarvalho/mpd-public) | motion planning | unconditional, classifier guidance | DDPM | PointMass2D | 2023 IROS | [Link](https://github.com/jacarvalho/mpd-public) |
+| **Diffusion-ES** [\[Yang et al. 2024\]](https://github.com/bhyang/diffusion-es) | motion planning | unconditional | truncated DDPM | nuPlan | 2024 CVPR | [Link](https://github.com/bhyang/diffusion-es) |
+| **Drive-WM** [\[Wang et al. 2024\]](https://github.com/BraveGroup/Drive-WM) | motion planning, multiview video generation | conditioned on adjacent views | VLDM | nuScenes | 2024 CVPR | [Link](https://github.com/BraveGroup/Drive-WM) |
+| **GenAD** [\[Yang et al. 2024\]](https://github.com/OpenDriveLab/DriveAGI) | motion planning, multiview video generation | conditioned on past frame, text | VLDM | WOMD et al. | 2024 CVPR | [Link](https://github.com/OpenDriveLab/DriveAGI) |
 
 ---
 
