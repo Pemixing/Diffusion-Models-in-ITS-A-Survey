@@ -28,16 +28,16 @@ This repository investigates the applications of diffusion models in ITS, includ
 
 | Paper | Task | Denoising Condition | Architecture | Datasets | Year | Open Source |
 |-------|------|---------------------|--------------|----------|------|--------------|
-| **MID** [\[Gu et al. 2022\]](https://github.com/gutianpei/MID) | human trajectory prediction | conditioned on observed trajectories | DDPM | SDD, ETH, UCY | 2022 CVPR | [Link](https://github.com/gutianpei/MID) |
-| **LED** [\[Mao et al. 2023\]](https://github.com/MediaBrain-SJTU/LED) | human trajectory prediction, speed up | conditioned on observed trajectories | LED | SDD et al. | 2023 CVPR | [Link](https://github.com/MediaBrain-SJTU/LED) |
-| **SingularTrajectory** [\[Bae et al. 2024\]](https://github.com/inhwanbae/SingularTrajectory) | human trajectory prediction, speed up | conditioned on observed scene | DDIM | ETH et al. | 2024 CVPR | [Link](https://github.com/inhwanbae/SingularTrajectory) |
-| **IDM** [\[Liu et al. 2024\]](https://arxiv.org/abs/2401.00000) | human trajectory prediction, speed up | conditioned on observed trajectories, endpoint | DDPM | SDD et al. | 2024 arXiv | —— |
-| **LADM** [\[Lv et al. 2024\]](https://arxiv.org/abs/2401.00001) | human trajectory prediction, speed up | conditioned on coarse future trajectory | VAE + DDPM | ETH et al. | 2024 TIM | —— |
-| **BCDiff** [\[Li et al. 2024\]](https://arxiv.org/abs/2401.00002) | human trajectory prediction, instantaneous prediction | conditioned on gate | DDPM | SDD et al. | 2024 NeurIPS | —— |
-| **MotionDiffuser** [\[Jiang et al. 2023\]](https://arxiv.org/abs/2303.00003) | multi-agent prediction | conditioned on observed scene, constraints; classifier guidance | LDM | WOMD | 2023 CVPR | —— |
-| **SceneDiffusion** [\[Balasubramanian et al. 2023\]](https://arxiv.org/abs/2303.00004) | multi-agent prediction | conditioned on observed scene, interval time; unconditional | LDM | Argoverse | 2023 ITSC | —— |
-| **Equidiff** [\[Chen et al. 2023\]](https://arxiv.org/abs/2303.00005) | vehicle trajectory prediction | conditioned on observed trajectories, interactions | DDPM | NGSIM | 2023 ITSC | —— |
-| **Yao et al.** [\[2023\]](https://arxiv.org/abs/2303.00006) | vehicle trajectory prediction | conditioned on observed trajectories, map | DDPM | Argoverse2 | 2023 CSIS-IAC | —— |
+| **MID** [\[Gu et al. 2022\]](https://openaccess.thecvf.com/content/CVPR2022/papers/Gu_Stochastic_Trajectory_Prediction_via_Motion_Indeterminacy_Diffusion_CVPR_2022_paper.pdf) | human trajectory prediction | conditioned on observed trajectories | DDPM | SDD, ETH, UCY | 2022 CVPR | [Link](https://github.com/gutianpei/MID) |
+| **LED** [\[Mao et al. 2023\]](https://openaccess.thecvf.com/content/CVPR2023/papers/Mao_Leapfrog_Diffusion_Model_for_Stochastic_Trajectory_Prediction_CVPR_2023_paper.pdf) | human trajectory prediction, speed up | conditioned on observed trajectories | LED | SDD et al. | 2023 CVPR | [Link](https://github.com/MediaBrain-SJTU/LED) |
+| **SingularTrajectory** [\[Bae et al. 2024\]](https://openaccess.thecvf.com/content/CVPR2024/papers/Bae_SingularTrajectory_Universal_Trajectory_Predictor_Using_Diffusion_Model_CVPR_2024_paper.pdf) | human trajectory prediction, speed up | conditioned on observed scene | DDIM | ETH et al. | 2024 CVPR | [Link](https://github.com/inhwanbae/SingularTrajectory) |
+| **IDM** [\[Liu et al. 2024\]](https://arxiv.org/pdf/2403.09190) | human trajectory prediction, speed up | conditioned on observed trajectories, endpoint | DDPM | SDD et al. | 2024 arXiv | —— |
+| **LADM** [\[Lv et al. 2024\]](https://ieeexplore.ieee.org/document/10466609) | human trajectory prediction, speed up | conditioned on coarse future trajectory | VAE + DDPM | ETH et al. | 2024 TIM | —— |
+| **BCDiff** [\[Li et al. 2024\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/2e57e2c14232a7b99cf76213e190822d-Paper-Conference.pdf) | human trajectory prediction, instantaneous prediction | conditioned on gate | DDPM | SDD et al. | 2024 NeurIPS | —— |
+| **MotionDiffuser** [\[Jiang et al. 2023\]](https://openaccess.thecvf.com/content/CVPR2023/papers/Jiang_MotionDiffuser_Controllable_Multi-Agent_Motion_Prediction_Using_Diffusion_CVPR_2023_paper.pdf) | multi-agent prediction | conditioned on observed scene, constraints; classifier guidance | LDM | WOMD | 2023 CVPR | —— |
+| **SceneDiffusion** [\[Balasubramanian et al. 2023\]](https://ieeexplore.ieee.org/abstract/document/10422482) | multi-agent prediction | conditioned on observed scene, interval time; unconditional | LDM | Argoverse | 2023 ITSC | —— |
+| **Equidiff** [\[Chen et al. 2023\]](https://ieeexplore.ieee.org/document/10421892) | vehicle trajectory prediction | conditioned on observed trajectories, interactions | DDPM | NGSIM | 2023 ITSC | —— |
+| [\[Yao et al. 2023\]](https://ieeexplore.ieee.org/document/10363970) | vehicle trajectory prediction | conditioned on observed trajectories, map | DDPM | Argoverse2 | 2023 CSIS-IAC | —— |
 
 ---
 
