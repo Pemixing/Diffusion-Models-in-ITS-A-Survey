@@ -45,12 +45,12 @@ This repository investigates the applications of diffusion models in ITS, includ
 
 | Paper | Task | Denoising Condition | Architecture | Datasets | Year | Open Source |
 |-------|------|---------------------|--------------|----------|------|--------------|
-| **Diffuser** [\[Janner et al. 2022\]](https://github.com/jannerm/diffuser) | behavior planning | unconditional, classifier guidance | ADM | D4RL | 2022 ICML | [Link](https://github.com/jannerm/diffuser) |
-| **Decision Diffuser** [\[Ajay et al. 2023\]](https://arxiv.org/abs/2301.00007) | decision making, behavior planning | conditioned on rewards, constraints, skills; classifier-free guidance | ADM | D4RL | 2023 ICLR | —— |
-| **MPD** [\[Carvalho et al. 2023\]](https://github.com/jacarvalho/mpd-public) | motion planning | unconditional, classifier guidance | DDPM | PointMass2D | 2023 IROS | [Link](https://github.com/jacarvalho/mpd-public) |
-| **Diffusion-ES** [\[Yang et al. 2024\]](https://github.com/bhyang/diffusion-es) | motion planning | unconditional | truncated DDPM | nuPlan | 2024 CVPR | [Link](https://github.com/bhyang/diffusion-es) |
-| **Drive-WM** [\[Wang et al. 2024\]](https://github.com/BraveGroup/Drive-WM) | motion planning, multiview video generation | conditioned on adjacent views | VLDM | nuScenes | 2024 CVPR | [Link](https://github.com/BraveGroup/Drive-WM) |
-| **GenAD** [\[Yang et al. 2024\]](https://github.com/OpenDriveLab/DriveAGI) | motion planning, multiview video generation | conditioned on past frame, text | VLDM | WOMD et al. | 2024 CVPR | [Link](https://github.com/OpenDriveLab/DriveAGI) |
+| **Diffuser** [\[Janner et al. 2022\]](https://arxiv.org/pdf/2205.09991) | behavior planning | unconditional, classifier guidance | ADM | D4RL | 2022 ICML | [Link](https://github.com/jannerm/diffuser) |
+| **Decision Diffuser** [\[Ajay et al. 2023\]](https://arxiv.org/pdf/2211.15657) | decision making, behavior planning | conditioned on rewards, constraints, skills; classifier-free guidance | ADM | D4RL | 2023 ICLR | —— |
+| **MPD** [\[Carvalho et al. 2023\]](https://ieeexplore.ieee.org/abstract/document/10342382?casa_token=DJq-kseLyHkAAAAA:rCCxjTOOYmz4hpIYdEixd8lUMgbxJxmFzlTf14r6FGW9wvyL05I0VX0eyLIA0L2pW3GXaWli7G00) | motion planning | unconditional, classifier guidance | DDPM | PointMass2D | 2023 IROS | [Link](https://github.com/jacarvalho/mpd-public) |
+| **Diffusion-ES** [\[Yang et al. 2024\]](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Diffusion-ES_Gradient-free_Planning_with_Diffusion_for_Autonomous_and_Instruction-guided_Driving_CVPR_2024_paper.pdf) | motion planning | unconditional | truncated DDPM | nuPlan | 2024 CVPR | [Link](https://github.com/bhyang/diffusion-es) |
+| **Drive-WM** [\[Wang et al. 2024\]](https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Driving_into_the_Future_Multiview_Visual_Forecasting_and_Planning_with_CVPR_2024_paper.pdf) | motion planning, multiview video generation | conditioned on adjacent views | VLDM | nuScenes | 2024 CVPR | [Link](https://github.com/BraveGroup/Drive-WM) |
+| **GenAD** [\[Yang et al. 2024\]](https://arxiv.org/pdf/2403.09630) | motion planning, multiview video generation | conditioned on past frame, text | VLDM | WOMD et al. | 2024 CVPR | [Link](https://github.com/OpenDriveLab/DriveAGI) |
 
 ---
 
@@ -60,12 +60,12 @@ This repository investigates the applications of diffusion models in ITS, includ
 
 | Paper | Task | Denoising Condition | Architecture | Datasets | Year | Open Source |
 |-------|------|----------------------|--------------|----------|------|--------------|
-| **CTG** [\[Zhong et al. 2023\]](https://github.com/NVlabs/CTG) | vehicle trajectory generation | conditioned on observed scene; <br> STL-based guidance | ADM | nuScenes | 2023 ICRA | [CTG](https://github.com/NVlabs/CTG) |
-| **CTG++** [\[Zhong et al. 2023\]](https://github.com/NVlabs/CTG) | multi-agent trajectory generation | conditioned on observed scene; <br> language-based guidance | ADM | nuScenes | 2023 CoRL | [CTG++](https://github.com/NVlabs/CTG) |
-| **Dragtraffic** [\[Wang et al. 2024\]](https://github.com/chantsss/Dragtraffic) | multi-agent trajectory generation | conditioned on initial scene, text | LED | WOMD | 2024 IROS | [Dragtraffic](https://github.com/chantsss/Dragtraffic) |
-| **DJINN** [\[Niedoba et al. 2024\]]() | multi-agent trajectory generation | conditioned on arbitrary state; <br> classifier-free guidance; <br> behavior classes guidance | EDM | Argoverse <br> INTERACTION | 2024 NeurIPS | — |
-| **Pronovost et al. 2023** | multi-agent trajectory generation | conditioned on map, tokens | EDM <br> LDM | Argoverse2 | 2023 NeurIPS | — |
-| **Rempe et al. 2023** [\[trace\]](https://github.com/nv-tlabs/trace) [\[pacer\]](https://github.com/nv-tlabs/pacer) | human trajectory generation | conditioned on observed scene; <br> classifier-free guidance | ADM | ETH, nuScenes | 2023 CVPR | [trace](https://github.com/nv-tlabs/trace), [pacer](https://github.com/nv-tlabs/pacer) |
+| **CTG** [\[Zhong et al. 2023\]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10161463) | vehicle trajectory generation | conditioned on observed scene; <br> STL-based guidance | ADM | nuScenes | 2023 ICRA | [CTG](https://github.com/NVlabs/CTG) |
+| **CTG++** [\[Zhong et al. 2023\]](https://proceedings.mlr.press/v229/zhong23a/zhong23a.pdf) | multi-agent trajectory generation | conditioned on observed scene; <br> language-based guidance | ADM | nuScenes | 2023 CoRL | [CTG++](https://github.com/NVlabs/CTG) |
+| **Dragtraffic** [\[Wang et al. 2024\]](https://arxiv.org/abs/2404.12624) | multi-agent trajectory generation | conditioned on initial scene, text | LED | WOMD | 2024 IROS | [Dragtraffic](https://github.com/chantsss/Dragtraffic) |
+| **DJINN** [\[Niedoba et al. 2024\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/aeeddfbab4e99763ebac9221732c80dd-Paper-Conference.pdf) | multi-agent trajectory generation | conditioned on arbitrary state; <br> classifier-free guidance; <br> behavior classes guidance | EDM | Argoverse <br> INTERACTION | 2024 NeurIPS | — |
+| [\[Pronovost et al. 2023\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/d95cb79a3421e6d9b6c9a9008c4d07c5-Paper-Conference.pdf) | multi-agent trajectory generation | conditioned on map, tokens | EDM <br> LDM | Argoverse2 | 2023 NeurIPS | — |
+| [\[Rempe et al. 2023\]](https://openaccess.thecvf.com/content/CVPR2023/papers/Rempe_Trace_and_Pace_Controllable_Pedestrian_Animation_via_Guided_Trajectory_Diffusion_CVPR_2023_paper.pdf) | human trajectory generation | conditioned on observed scene; <br> classifier-free guidance | ADM | ETH, nuScenes | 2023 CVPR | [trace](https://github.com/nv-tlabs/trace), [pacer](https://github.com/nv-tlabs/pacer) |
 
 ---
 
@@ -73,15 +73,15 @@ This repository investigates the applications of diffusion models in ITS, includ
 
 | Paper | Task | Denoising Condition | Architecture | Datasets | Year | Open Source |
 |-------|------|----------------------|--------------|----------|------|--------------|
-| **FDM** [\[Harvey et al. 2022\]]() | image-based driving scenario generation | conditioned on previously sampled frames | FDM | Carla | 2022 NeurIPS | — |
-| **GAIA-1** [\[Hu et al. 2023\]]() | image-based driving scenario generation | conditioned on past image, text, action tokens; <br> classifier-free guidance | VDM <br> FDM | real-world dataset | 2023 arXiv | — |
-| **DriveDreamer** [\[Wang et al. 2023\]](https://github.com/JeffWang987/DriveDreamer) | image-based driving scenario generation | conditioned on image, road structure, text | LDM <br> VLDM | nuScenes | 2023 arXiv | [DriveDreamer](https://github.com/JeffWang987/DriveDreamer) |
-| **DriveDreamer-2** [\[Zhao et al. 2024\]](https://github.com/f1yfisher/DriveDreamer2) | image-based driving scenario generation | conditioned on structured info by LLMs, text | EDM | nuScenes | 2024 arXiv | [DriveDreamer2](https://github.com/f1yfisher/DriveDreamer2) |
-| **Panacea** [\[Wen et al. 2024\]](https://github.com/wenyuqing/panacea) | image-based driving scenario generation | conditioned on image, text, BEV sequence | LDM <br> DDIM | nuScenes | 2024 CVPR | [panacea](https://github.com/wenyuqing/panacea) |
-| **DrivingDiffusion** [\[Li et al. 2023\]](https://github.com/shalfun/DrivingDiffusion) | image-based driving scenario generation | conditioned on key-frame, optical flow prior, text, 3D layout | VDM <br> LDM | nuScenes | 2023 arXiv | [DrivingDiffusion](https://github.com/shalfun/DrivingDiffusion) |
-| **WoVoGen** [\[Lu et al. 2023\]](https://github.com/fudan-zvg/WoVoGen) | image-based driving scenario generation | conditioned on past world volumes, actions, text, 2D image feature | LDM | nuScenes | 2023 arXiv | [WoVoGen](https://github.com/fudan-zvg/WoVoGen) |
-| **LiDMs** [\[Ran et al. 2024\]](https://github.com/hancyran/LiDAR-Diffusion) | point cloud-based driving scenario generation | unconditional; <br> conditioned on arbitrary data | LDM | nuScenes <br> KITTI-360 | 2024 CVPR | [LiDAR-Diffusion](https://github.com/hancyran/LiDAR-Diffusion) |
-| **Copilot4D** [\[Zhang et al. 2023\]]() | point cloud-based driving scenario generation | conditioned on past observations, actions; <br> classifier-free guidance | D3PM <br> ADM | nuScenes et al. | 2024 ICLR | — |
+| **FDM** [\[Harvey et al. 2022\]](https://proceedings.neurips.cc/paper_files/paper/2022/file/b2fe1ee8d936ac08dd26f2ff58986c8f-Paper-Conference.pdf) | image-based driving scenario generation | conditioned on previously sampled frames | FDM | Carla | 2022 NeurIPS | — |
+| **GAIA-1** [\[Hu et al. 2023\]](https://arxiv.org/pdf/2309.17080) | image-based driving scenario generation | conditioned on past image, text, action tokens; <br> classifier-free guidance | VDM <br> FDM | real-world dataset | 2023 arXiv | — |
+| **DriveDreamer** [\[Wang et al. 2023\]](https://arxiv.org/pdf/2309.09777) | image-based driving scenario generation | conditioned on image, road structure, text | LDM <br> VLDM | nuScenes | 2023 arXiv | [DriveDreamer](https://github.com/JeffWang987/DriveDreamer) |
+| **DriveDreamer-2** [\[Zhao et al. 2024\]](https://arxiv.org/pdf/2403.06845) | image-based driving scenario generation | conditioned on structured info by LLMs, text | EDM | nuScenes | 2024 arXiv | [DriveDreamer2](https://github.com/f1yfisher/DriveDreamer2) |
+| **Panacea** [\[Wen et al. 2024\]](https://arxiv.org/pdf/2311.16813) | image-based driving scenario generation | conditioned on image, text, BEV sequence | LDM <br> DDIM | nuScenes | 2024 CVPR | [panacea](https://github.com/wenyuqing/panacea) |
+| **DrivingDiffusion** [\[Li et al. 2023\]](https://arxiv.org/pdf/2310.07771) | image-based driving scenario generation | conditioned on key-frame, optical flow prior, text, 3D layout | VDM <br> LDM | nuScenes | 2023 arXiv | [DrivingDiffusion](https://github.com/shalfun/DrivingDiffusion) |
+| **WoVoGen** [\[Lu et al. 2023\]](https://arxiv.org/pdf/2312.02934) | image-based driving scenario generation | conditioned on past world volumes, actions, text, 2D image feature | LDM | nuScenes | 2023 arXiv | [WoVoGen](https://github.com/fudan-zvg/WoVoGen) |
+| **LiDMs** [\[Ran et al. 2024\]](https://arxiv.org/pdf/2404.00815) | point cloud-based driving scenario generation | unconditional; <br> conditioned on arbitrary data | LDM | nuScenes <br> KITTI-360 | 2024 CVPR | [LiDAR-Diffusion](https://github.com/hancyran/LiDAR-Diffusion) |
+| **Copilot4D** [\[Zhang et al. 2023\]](https://arxiv.org/pdf/2311.01017) | point cloud-based driving scenario generation | conditioned on past observations, actions; <br> classifier-free guidance | D3PM <br> ADM | nuScenes et al. | 2024 ICLR | — |
 
 ---
 
@@ -89,11 +89,11 @@ This repository investigates the applications of diffusion models in ITS, includ
 
 | Paper | Task | Denoising Condition | Architecture | Datasets | Year | Open Source |
 |-------|------|----------------------|--------------|----------|------|--------------|
-| **KSTDiff** [\[Zhou et al. 2023\]](https://github.com/tsinghua-fib-lab/KSTDiff-Urban-flow-generation) | traffic flow generation | conditioned on urban knowledge graph, region feature, volume estimator | CARD | real-world dataset | 2023 SIGSPATIAL | [KSTDiff](https://github.com/tsinghua-fib-lab/KSTDiff-Urban-flow-generation) |
-| **DiffTraj** [\[Zhu et al. 2023\]](https://github.com/Yasoz/DiffTraj) | GPS trajectory generation | conditioned on trip region, departure time; <br> classifier-free guidance | DDIM, ADM | real-world dataset | 2023 NeurIPS | [DiffTraj](https://github.com/Yasoz/DiffTraj) |
-| **Diff-RNTraj** [\[Wei et al. 2024\]]() | GPS trajectory generation | conditioned on road network | DDPM | real-world dataset | 2024 arXiv | — |
-| **ChatTraffic** [\[Zhang et al. 2023\]](https://github.com/ChyaZhang/ChatTraffic) | traffic flow generation | conditioned on text | LDM | text-traffic pairs dataset | 2024 arXiv | [ChatTraffic](https://github.com/ChyaZhang/ChatTraffic) |
-| **Rong et al. 2023** | origin-destination flow generation | conditioned on node feature, edge feature | DDPM, ADM | real-world dataset | 2023 arXiv | — |
+| **KSTDiff** [\[Zhou et al. 2023\]]([https://github.com/tsinghua-fib-lab/KSTDiff-Urban-flow-generation](https://dl.acm.org/doi/abs/10.1145/3589132.3625641?casa_token=5oBA5VT7JuQAAAAA:aMoDreDFfjKsuwxj3hB1oNzSgeOlFwkOYHqAeBy1Bci6497xEB4Dtdh6Fxd_SnXzQCHqr7qiHSUyzw)) | traffic flow generation | conditioned on urban knowledge graph, region feature, volume estimator | CARD | real-world dataset | 2023 SIGSPATIAL | [KSTDiff](https://github.com/tsinghua-fib-lab/KSTDiff-Urban-flow-generation) |
+| **DiffTraj** [\[Zhu et al. 2023\]](https://proceedings.neurips.cc/paper_files/paper/2023/file/cd9b4a28fb9eebe0430c3312a4898a41-Paper-Conference.pdf) | GPS trajectory generation | conditioned on trip region, departure time; <br> classifier-free guidance | DDIM, ADM | real-world dataset | 2023 NeurIPS | [DiffTraj](https://github.com/Yasoz/DiffTraj) |
+| **Diff-RNTraj** [\[Wei et al. 2024\]](https://arxiv.org/pdf/2402.07369) | GPS trajectory generation | conditioned on road network | DDPM | real-world dataset | 2024 arXiv | — |
+| **ChatTraffic** [\[Zhang et al. 2023\]](https://arxiv.org/pdf/2311.16203) | traffic flow generation | conditioned on text | LDM | text-traffic pairs dataset | 2024 arXiv | [ChatTraffic](https://github.com/ChyaZhang/ChatTraffic) |
+| [\[Rong et al. 2023\]](https://arxiv.org/abs/2306.04873) | origin-destination flow generation | conditioned on node feature, edge feature | DDPM, ADM | real-world dataset | 2023 arXiv | — |
 
 ---
 
@@ -103,12 +103,12 @@ This repository investigates the applications of diffusion models in ITS, includ
 
 | Paper | Task | Condition | Architecture | Dataset | Year | Open Source |
 |-------|------|-----------|--------------|---------|------|-------------|
-| **DiffSTG** [\[Wen et al. 2023\]](https://github.com/wenhaomin/DiffSTG) | traffic flow forecasting | conditioned on past graph signals, graph structure | NCSN | PEMS et al. | 2023 GIS | [DiffSTG](https://github.com/wenhaomin/DiffSTG) |
-| **SpecSTG** [\[Lin et al. 2024\]](https://anonymous.4open.science/r/SpecSTG/README.md) | traffic flow forecasting <br> traffic speed forecasting | conditioned on past graph signals feature, adjacency matrix | DDPM | PEMS et al. | 2024 arXiv | [SpecSTG](https://anonymous.4open.science/r/SpecSTG/README.md) |
-| **DiffUFlow** [\[Zheng et al. 2023\]]() | traffic flow forecasting | conditioned on pass feature map, coarse-grained flow map, semantic features | DDPM | real-world dataset | 2023 CIKM | — |
-| **Xu et al. 2023** | traffic flow forecasting | unconditional | DDPM | real-world dataset | 2023 ICASSP | — |
-| **ST-SSPD** [\[Lablack et al. 2023\]]() | traffic flow forecasting | conditioned on past data points, temporal encoding, node identifier | DDPM | METR-LA et al. | 2023 MobiArch | — |
-| **Difforecast** [\[Chi et al. 2023\]]() | traffic flow forecasting <br> image generation | conditioned on past S-T image | DDPM | real-world dataset | 2023 BigData | — |
+| **DiffSTG** [\[Wen et al. 2023\]](https://dl.acm.org/doi/pdf/10.1145/3589132.3625614) | traffic flow forecasting | conditioned on past graph signals, graph structure | NCSN | PEMS et al. | 2023 GIS | [DiffSTG](https://github.com/wenhaomin/DiffSTG) |
+| **SpecSTG** [\[Lin et al. 2024\]](https://arxiv.org/abs/2401.08119) | traffic flow forecasting <br> traffic speed forecasting | conditioned on past graph signals feature, adjacency matrix | DDPM | PEMS et al. | 2024 arXiv | [SpecSTG](https://anonymous.4open.science/r/SpecSTG/README.md) |
+| **DiffUFlow** [\[Zheng et al. 2023\]](https://dl.acm.org/doi/pdf/10.1145/3583780.3614842) | traffic flow forecasting | conditioned on pass feature map, coarse-grained flow map, semantic features | DDPM | real-world dataset | 2023 CIKM | — |
+| [\[Xu et al. 2023\]](https://ieeexplore.ieee.org/abstract/document/10096169?casa_token=9_TAd6HVaCMAAAAA:0PgAgYXp62UtKJpNWPHxjgkcGyQnLHI4nWkC1TSyUAd923RBpg5336dnY-IUjk16AZNb1LZOnqb1) | traffic flow forecasting | unconditional | DDPM | real-world dataset | 2023 ICASSP | — |
+| **ST-SSPD** [\[Lablack et al. 2023\]](https://dl.acm.org/doi/abs/10.1145/3615587.3615985) | traffic flow forecasting | conditioned on past data points, temporal encoding, node identifier | DDPM | METR-LA et al. | 2023 MobiArch | — |
+| **Difforecast** [\[Chi et al. 2023\]](https://ieeexplore.ieee.org/abstract/document/10386463) | traffic flow forecasting <br> image generation | conditioned on past S-T image | DDPM | real-world dataset | 2023 BigData | — |
 
 ---
 
@@ -116,7 +116,7 @@ This repository investigates the applications of diffusion models in ITS, includ
 
 | Paper | Task | Condition | Architecture | Dataset | Year | Open Source |
 |-------|------|-----------|--------------|---------|------|-------------|
-| **Lin et al. 2023** | origin-destination travel time estimation | conditioned on origin, destination, departure time | DDPM | real-world dataset | 2023 MOD | — |
+| [\[Lin et al. 2023\]](https://dl.acm.org/doi/abs/10.1145/3617337?casa_token=f4LRLt5C93gAAAAA:XBkkxvbO0-HdONlcQM1piKiTRFznM0fEHFSs3ODWcIHO_OHHxjiV2xZU_LrvHO-SjuMOgC6BvasB_A) | origin-destination travel time estimation | conditioned on origin, destination, departure time | DDPM | real-world dataset | 2023 MOD | — |
 
 ---
 
@@ -126,8 +126,8 @@ This repository investigates the applications of diffusion models in ITS, includ
 
 | Paper | Task | Condition | Architecture | Dataset | Year | Open Source |
 |-------|------|-----------|--------------|---------|------|-------------|
-| **DiffTAD** [\[Li et al. 2024\]]() | trajectory anomaly detection | unconditional | DDIM | NGSIM | 2024 KBS | — |
-| **VAD** [\[Yan et al. 2023\]]() | video anomaly detection | unconditional; <br> conditioned on original features | LDM, DDIM | CUHK Avenue et al. | 2023 ICCV | — |
+| **DiffTAD** [\[Li et al. 2024\]](https://www.sciencedirect.com/science/article/abs/pii/S0950705124000224) | trajectory anomaly detection | unconditional | DDIM | NGSIM | 2024 KBS | — |
+| **VAD** [\[Yan et al. 2023\]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yan_Feature_Prediction_Diffusion_Model_for_Video_Anomaly_Detection_ICCV_2023_paper.pdf) | video anomaly detection | unconditional; <br> conditioned on original features | LDM, DDIM | CUHK Avenue et al. | 2023 ICCV | — |
 
 ---
 
@@ -135,5 +135,5 @@ This repository investigates the applications of diffusion models in ITS, includ
 
 | Paper | Task | Condition | Architecture | Dataset | Year | Open Source |
 |-------|------|-----------|--------------|---------|------|-------------|
-| **AdVersa-SD** [\[Fang et al. 2024\]](https://github.com/jeffreychou777/LOTVS-MM-AU) | accident video understanding <br> accident preventing | conditioned on text, bounding boxes | LDM | MM-AU | 2024 CVPR | [MM-AU](https://github.com/jeffreychou777/LOTVS-MM-AU) |
+| **AdVersa-SD** [\[Fang et al. 2024\]](https://arxiv.org/pdf/2403.00436) | accident video understanding <br> accident preventing | conditioned on text, bounding boxes | LDM | MM-AU | 2024 CVPR | [MM-AU](https://github.com/jeffreychou777/LOTVS-MM-AU) |
 
