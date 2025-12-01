@@ -1,5 +1,5 @@
 # Diffusion-Models-in-ITS-A-Survey
-This repository investigates the applications of diffusion models in ITS, including autonomous driving, traffic simulation, traffic forecasting, and traffic safety. In particular, we review these applications based on criteria such as task, denoising condition, or model architecture. The classification is based on our survey [Diffusion Models for Intelligent Transportation Systems: A Survey](https://arxiv.org/pdf/2409.15816).
+This repository investigates the applications of diffusion models in ITS, including autonomous driving, traffic simulation, traffic forecasting, and traffic safety. In particular, we review these applications based on criteria such as task, denoising condition, or model architecture. The classification is based on our survey [Diffusion Models for Intelligent Transportation Systems: A Survey](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11182270).
 
 ![image](https://github.com/user-attachments/assets/53ced87d-0abf-4825-b874-7770dbc0068e)
 
